@@ -11,19 +11,22 @@
         * {
             cursor: pointer;
             list-style-type: none;
+            font-family: fantasy;
         }
 
 
         body {
-            background-image: url(images/timothy-dykes-LhqLdDPcSV8-unsplash.jpg);
+            background-image: url(images/markus-spiske-Skf7HxARcoc-unsplash.jpg);
             background-repeat: no-repeat;
-            background-attachment: fixed;
+            /* background-attachment: scroll; */
             background-size: cover;
         }
 
-        h1 {
-            text-align: center;
+        .title {
+            text-align: left;
             font-size: 35px;
+            font-weight: bolder;
+
 
         }
 
@@ -34,14 +37,14 @@
         } */
 
         ul {
-            font-size: 20px;
-            text-align: center;
-            
+            font-size: 25px;
+            text-align: left;
+
 
         }
 
-        ul li:hover {
-            color: blue;
+        ul li a:hover {
+            color: rgb(130, 162, 231);
             font-size: 25px;
         }
 
@@ -67,16 +70,33 @@
             padding: 7px 35px;
             line-height: 25px;
             margin-top: 200px;
+        }
 
+        img {
+            width: 15%;
+            margin-top: 70px;
+            margin-left: 18px;
+        }
+
+        .home {
+            margin-left: 25px;
+            font-size: 35px;
         }
     </style>
 </head>
 
 <body>
-    <h1> <span class="one" style="color:blue; font-weight:bold">5 Generations of Software Programming</span> </h1>
+    <ul class="title">
+        <li>Five</li>
+        <li>Generations</li>
+        <li>Of</li>
+        <li>Computer</li>
+        <li>Programming</li>
+    </ul>
     <header>
+        <img src="https://media.giphy.com/media/UWJRSNy3eYunXIh4ly/giphy.gif">
         <ul>
-            <li><a href="index.html">&#9778</a>
+            <li><a class="home" href="index.html">&#163875</a>
             <li><a href="generation-1.html">Gen-One</a>
             <li><a href="generation-2.html">Gen-Two</a></li>
             <li><a href="generation-3.html">Gen-Three</a> </li>
@@ -86,27 +106,15 @@
 
 
     </header>
-    
-    <ul class="box2"> 
+
+    <!-- <ul class="box2"> 
         <li>Computers are dumb</li>
         <li>Programming is a way of giving computers instructions</li>
         <li>Programming is known as code</li>
         <li>Programmers write code to solve problems</li>
         <li>or perform a task</li>
         <li>Software programming exsist to process data</li>
-    </ul>
-
-
-    <div class="box">
-        <h3>Programming Languages</h3>
-        <p>Procedual</p>
-        <p>Functional</p>
-        <p>Object-orientated</p>
-        <p>Scripting</p>
-    </div>
-
-   
-
+    </ul> -->
 
 </body>
 
