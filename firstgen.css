@@ -2,3 +2,8 @@ body {background-image: url(images/blue.jpg); background-size: cover;}
 h1 {text-align: center; margin-bottom: 30px; margin-top: 50px;}
 img {border-radius: 40px;}
 p, h1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+header {background-image: url(images/futuristic.jpg); background-size: cover; height: 100px; position: fixed; width: 100%; z-index: 3;}
+header h4, header h2 {display: inline; font-weight: 900; }
+header a:hover {text-decoration: none;}
+.first h1 {margin-top: 120px;}
