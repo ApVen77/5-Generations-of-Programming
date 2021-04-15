@@ -7,3 +7,11 @@ header {background-image: url(images/futuristic.jpg); background-size: cover; he
 header h4, header h2 {display: inline; font-weight: 900; }
 header a:hover {text-decoration: none;}
 .first h1 {margin-top: 120px;}
+
+.circle {border: black solid 3px; border-radius: 50%; width: 400px; height: 400px; margin: 0 auto; text-align: center; background-color: cornflowerblue;}
+.circle h3, .circle ul {margin-top: 50px; font-weight: bold;}
+.circle li {margin: 8px; list-style:none; font-weight: 900; margin-left: -10px;}
+.circle:hover {background-color: rgba(204, 45, 106, 0.788); transform: rotate(360deg); transition-duration:2s;}
+.good {color: rgb(5, 77, 5);}
+.bad {color: darkred;}
+figcaption {text-align: center; background-color: dimgrey; width: 300px; margin: 0 auto; border-radius: 40px; color: white;}
